@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>My Favorite Panel - Comment Page</title>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   <link rel="stylesheet" href="styles.css">
+   <script src="script.js"></script>
+</head>
+
+<body>
+   <header>
+       <section class="container">
+           <div class="row">
+               <div class="col">
+               </div>
+           </div>
+       </section>
+   </header>
+
+   <nav class="navbar navbar-expand-lg bg-body-tertiary sticky">
+    <section class="container">
+        <a class="navbar-brand" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-book" viewBox="0 0 16 16">
+            <path d="M0 1v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V1H0zm13 0v14H3V1a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1z"/>
+            <path d="M3 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h1V0H3z"/>
+        </svg></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <section class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="comic.html">Comic</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="shop.html">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="signup.html">Sign Up</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </section>
+    </section>
+</nav>
+
+
+   <section>
+       <h1>Comment Page</h1>
+       <section class="d-flex justify-content-center">
+           <img src="DrDoomThanos.jpeg" alt="Image description" class="centered_image">
+       </section>
+
+       <form id="commentForm" method="post">
+        <section class="button-container">
+            <label for="comment">Your Comment:</label><br>
+            <textarea id="comment" name="comment" rows="4" cols="50"></textarea><br>
+            <input type="submit" value="Submit Comment" class="comment_button">
+        </section>
+    </form>
+
+      
+       <div id="comment-container" class="comment-container">
+       </div>
+   </section>
+
+   <footer class="footer mt-auto py-3 bg-dark navbar-dark text-light text-center">
+       Copyright &copy; Iker 2023. All Rights Reserved
+   </footer>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+       crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+       integrity="sha384-ApNrjLJ16K5T0J3l45UoOpGlff6gBnDWa9HVCqBzPZh7VNy9pT/Plw2cYH93pGd0o" crossorigin="anonymous">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</body>
+
+</html>
+
